@@ -1,0 +1,48 @@
+.input {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #b43958;
+  border: 2px solid #b43958;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 190px;
+}
+
+.input:active {
+  box-shadow: 2px 2px 15px #b43958 inset;
+  border: 2px solid #ffff;
+}
+.input:focus {
+  box-shadow: 2px 2px 15px #304cc9 inset;
+  border: 2px solid #fff;
+}
+.input-multiline {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #b43958;
+  border: 2px solid #b43958;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 190px;
+  width: 300px;
+  height: 100px;
+}
+
+.input-multiline:active {
+  box-shadow: 2px 2px 15px #b43958 inset;
+}
+.input-multiline:focus {
+  box-shadow: 2px 2px 15px #304cc9 inset;
+  border: 2px solid #fff;
+}
+.btn:hover {
+  box-shadow: 2px 2px 15px #304cc9 inset;
+  /* border: 2px solid #fff; */
+  color: #304cc9;
+}

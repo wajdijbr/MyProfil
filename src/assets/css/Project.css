@@ -1,0 +1,30 @@
+.scrollable-container {
+  overflow: auto;
+}
+.scrollable-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background-color: #b43958;
+  border-radius: 4px;
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+.list-project:hover {
+  box-shadow: 2px 2px 15px #304cc9 inset;
+}
+.list-item {
+  text-decoration: underline;
+  text-shadow: 0 0 10px #304cc9, 0 0 10px #304cc9, 0 0 10px #304cc9,
+    0 0 10px #304cc9;
+}
+
+.list-item:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 10px #304cc9, 0 0 10px #304cc9, 0 0 10px #304cc9,
+    0 0 10px #304cc9;
+}
